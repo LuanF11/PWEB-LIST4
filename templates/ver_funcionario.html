@@ -1,0 +1,10 @@
+{% include 'base.html' %}
+    
+{% block content %}
+    <h1>Detalhes do Funcionário</h1>
+    <p><strong>Nome:</strong> {{ funcionario.nome }}</p>
+    <p><strong>Endereço:</strong> {{ funcionario.endereco }}</p>
+    <p><strong>Telefone:</strong> {{ funcionario.telefone }}</p>
+    <p><a href="/funcionarios">Voltar para lista de funcionários</a></p>
+
+{% endblock %}
